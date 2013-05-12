@@ -46,6 +46,8 @@ public class Simulator {
 						currentStack.pop();
 						currentStack.push(transitionWithEpsilon.getPushOnStack());
 						
+						System.out.print(OUTPUT_STATE_LISTS_SEPARATOR + statesTextFormatting(currentState, currentStack));
+						
 						// Don't increase alphabet index because you need to
 						// check same alphabet symbol again
 					}
