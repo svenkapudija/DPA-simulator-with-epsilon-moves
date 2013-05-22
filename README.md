@@ -1,7 +1,8 @@
 DPA-simulator with epsilon moves
 =============
 
-Solution for the second lab at "Introduction to Theoretical Computer Science" course
+Solution for the second lab at "Introduction to Theoretical Computer Science" course - Deterministic pushdown automaton with epsilon transitions/moves which 
+accepts input sequences with acceptable state.
 
 Example
 ------
